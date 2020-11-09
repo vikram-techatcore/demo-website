@@ -92,6 +92,25 @@ footer{
 	}
 
 
+
+.login_box{
+	margin: 5px;
+	padding: 20px;
+	border: 2px solid;
+	position: absolute;
+	top: 35%;
+	left: 30%;
+	width: 500px;
+	height: 250px;
+	text-align: center;
+	background-color: rgb(95, 94, 94);
+}
+
+.login_box div {
+	padding: 10px;
+}
+
+
 label{
 	padding: 5PX;
 	margin: 5px;
