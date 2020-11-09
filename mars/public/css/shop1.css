@@ -90,3 +90,12 @@ footer{
 		margin: 10px;
 		padding: 10px;
 	}
+
+
+label{
+	padding: 5PX;
+	margin: 5px;
+}
+input{
+	margin-left: auto;
+}
