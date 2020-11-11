@@ -10,7 +10,7 @@ header,footer,.main_container
 		margin: 5px;
 		padding: 5px;
 		position: absolute;
-		background: #ccc;
+		background: rgb(187, 85, 85);
 		opacity: 0.8;
 	}
 header{
@@ -66,11 +66,6 @@ footer{
 		overflow: scroll ;
 
 	}
-	.container{
-		padding: 10px;
-		position: relative;
-		display: block;
-	}
 	
 	.block{
 		display: inline-block;
@@ -92,6 +87,7 @@ footer{
 	}
 
 
+/*login page*/
 
 .login_box{
 	margin: 5px;
@@ -117,4 +113,28 @@ label{
 }
 input{
 	margin-left: auto;
+}
+
+/*registration_page*/
+
+.reg_box{
+	margin: 20px;
+	padding: 20px;
+	position: relative;
+	height: 65%;
+	width: 30%;
+	border: 2px solid ;
+	top: 15%;
+	left: 30%;
+	background-color: rgb(128, 66, 41);
+}
+
+.reg_box label{
+	width: 180px;
+}
+
+#RESET,#SUBMIT {
+	text-align: center;
+	padding: 5px;
+	margin: 5px;
 }

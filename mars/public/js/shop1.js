@@ -146,7 +146,7 @@ function showProductData(productData) {
 
 	mainDiv.append(ulTag);
 
-	document.querySelector('.container').append(mainDiv);
+	document.querySelector('.main_container').append(mainDiv);
 
 
 }
